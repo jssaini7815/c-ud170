@@ -1,5 +1,5 @@
 from datetime import datetime as dt
-
+#Datestring only not acceptable in hour-minutes-second due to strptime mention
 # Convert datestring to datetime
 def parse_date(date):
     if date == '':
